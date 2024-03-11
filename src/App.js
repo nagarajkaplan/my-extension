@@ -2,7 +2,7 @@ import "./App.css";
 
 const data = [
   {
-    name: "Default checkins",
+    name: "Quick Access",
     url: [
       "https://mail.google.com/mail/u/0",
       "https://calendar.google.com/calendar/u/0",
@@ -22,7 +22,6 @@ function App() {
   };
   return (
     <div className="App">
-      <h1>Hi, Quick Access for your tabs...</h1>
       <div className="lists">
         {data.map((item) => {
           return (
